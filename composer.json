@@ -31,9 +31,15 @@
             "homepage": "https://github.com/nfephp-org/sped-mdfe/graphs/contributors"
         }
     ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/tavinus/sped-common"
+        }
+    ],
     "require": {
         "php": ">=7.0",
-        "nfephp-org/sped-common": "^5.0",
+        "nfephp-org/sped-common": "dev-php72v2",
         "justinrainbow/json-schema": "^5.2",
         "ext-zlib": "*",
         "ext-dom": "*",
